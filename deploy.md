@@ -8,3 +8,5 @@
     Port 22
     IdentityFile ~/.ssh/<your private key name>
   ```
+
+- Go to github project settings and add public key to 'deploy keys'
