@@ -10,3 +10,4 @@
   ```
 
 - Go to github project settings and add public key to 'deploy keys'
+- Verify that everything works with `ssh git@github.com`
