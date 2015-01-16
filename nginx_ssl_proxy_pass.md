@@ -1,10 +1,10 @@
 ```nginx
     server {
         listen 443;
-        server_name mail.corp.yahoo.com;
+        server_name my.host.com;
 
-        ssl_certificate /Users/dabramov/y/norrin/secret/cert.pem;
-        ssl_certificate_key /Users/dabramov/y/norrin/secret/key.pem;
+        ssl_certificate /etc/nginx/cert.pem;
+        ssl_certificate_key /etc/nginx/key.pem;
 
         ssl on;
         ssl_session_cache  builtin:1000  shared:SSL:10m;
