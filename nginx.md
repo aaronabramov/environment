@@ -1,6 +1,7 @@
 ### Nginx configuration for proxy pass to local node instance
 
 With default ubuntu configuration put this file to `/etc/nginx/sites-enabled/<your_app>`
+(run `nginx -t` to get configuration files paths)
 
 ```nginx
 server {
